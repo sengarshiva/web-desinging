@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+} 
+
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: fangsong;
+    font-weight: bold;
+    color: #ff6fa0;
+    margin: 0 10px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.banner {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(https://www.foodpanda.com/wp-content/uploads/2023/02/about-foodpanda.jpeg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner h1 {
+    text-align: center; 
+    font-size: 30px;
+    background: rgb(220, 110, 176);
+    color: aliceblue;
+    position: relative;
+    top: 165px;
+    margin: auto;
+    width: 25%;
+}
+
+.news {
+    background: #4d4090 url(http://ayushmanup.in/assets/images/city_background.png) no-repeat top right;
+    width: 100%;
+    height: 50px;
+    padding: 0 30px;
+}
+
+.news marquee {
+    color: white;
+    font-size: 20px;
+    padding-top: 15px;
+    font-family: monospace;
+}
+
+.about {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    padding: 200px 200px;
+}
+
+.about h2 {
+    font-size: 35px;
+    font-family: cursive;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 4px blue;
+    margin-top: 14px;
+
+}
+
+.about p {
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-family: cursive;
+    line-height: 39px;
+    margin-bottom: 25px;
+
+}
+
+.about button {
+    width: 190px;
+    height: 45px;
+    background: linear-gradient(to right, black, green);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 9px;
+}
+
+.press {
+    background: url(../image/255547-1631675487a-human-finger-found-inside-a-hamburger-sparks-a-scandal-1280x720.avif);
+    width: 100%;
+    height: 500px;
+    /* background-repeat: no-repeat;*/
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+
+}
+
+.team {
+    background: url(../image/9274003ddb1f404b81b369857caf94d7.webp);
+    width: 100%;
+    height: 500px;
+    /* background-repeat: no-repeat;*/
+    background-position: center;
+    background-size: cover;
+    background: cover;
+
+}
+
+.blog {
+    background: url(../image/9274003ddb1f404b81b369857caf94d7.webp);
+    width: 100%;
+    height: 500px;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    background-size: cover;
+    background: cover;
+    text-align: center; 
+    
+
+}
+
+footer {
+    background: black;
+    width: 100%;
+    height: 400px;
+} 

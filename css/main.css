@@ -1,0 +1,19 @@
+body{
+    background: #484949;
+}
+.a{
+    border: 2px solid white  ;
+    width: 330px;
+    height: 430px;
+    float: left;
+    margin: 10px;
+    background: white;
+    
+
+}
+.b{
+    text-align: center;
+    background: rgb(37, 70, 37);
+    font-size: 50px;
+    color: antiquewhite;
+}

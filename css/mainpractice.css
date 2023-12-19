@@ -1,0 +1,17 @@
+body{
+    background: #484949;
+}
+.a{
+    border: 2px solid white;
+    width: 350px;
+    height: 450px;
+    float: left;
+    margin: 10px;
+    background: white;
+}
+.b{
+    text-align: center;
+    background: rgb(37, 70, 37);
+    font-size: 60px;
+    color: blanchedalmond;
+}
